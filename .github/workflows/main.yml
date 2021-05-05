@@ -26,4 +26,4 @@ jobs:
       run: mvn clean install
       
     - name: Upload to Artifactory
-      run:  curl -X PUT -u admin:Vishali@1503 -T /home/runner/work/Artifactory/Artifactory/target/SubmissionDataForm-0.0.1-SNAPSHOT.jar "http://localhost:8082/artifactory/CG-libs-release-local/SubmissionDataForm-0.0.1-SNAPSHOT.jar"
+      run:  curl -X PUT -u admin:Vishali@1503 -T /home/runner/work/Artifactory/Artifactory/target/SubmissionDataForm-0.0.1-SNAPSHOT.jar "http://localhost:8081/artifactory/CG-libs-release-local/SubmissionDataForm-0.0.1-SNAPSHOT.jar"
